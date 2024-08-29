@@ -15,6 +15,6 @@ public class MaxSubArray {
     }
     public static void main(String[] args) {
         int numbers[] = {1,2,3,4,5};
-        System.out.println("The maximum sub array" + max_sub_array(numbers));
+        System.out.println("The maximum sub array " + max_sub_array(numbers));
     }
 }
