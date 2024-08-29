@@ -1,3 +1,7 @@
+/* + + = +
+   ++  - = +
+   +  -- = - >>> assume equal to zero
+ */
 public class KadanesAlgorithm {
     public static int kad_algo(int numbers[]){
         int sum=0 , max = Integer.MIN_VALUE;
