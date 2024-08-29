@@ -1,3 +1,4 @@
+//  Total pairs = n(n-1)/2 where n is the number of elements in array
 public class PairsInArray {
     public static void pairs_in_array (int numbers[]) {
         for (int i=0; i<numbers.length; i++){
