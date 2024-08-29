@@ -1,9 +1,13 @@
+/* corner function :-
+   water can't be trapped in bars where number of bars <= 2.
+   water can't be trapped in bars which are sorted.
+ */
 public class TrappingRainWater {
     public static int trapping_rainwater(int numbers[]) {
         int n = numbers.length, water_level=0,water_trapped=0,total_water_trapped=0;
         int left_max[] = new int [n];
         int right_max[] = new int [n];
-        for (int i=0; i<n; i++){
+        for (int i=1; i<n; i++){
             left_max[i] = i==0 ? numbers[i] : Math.max(numbers[i],left_max[i-1]);
             }
         for (int i=n-1; i>=0; i--){
