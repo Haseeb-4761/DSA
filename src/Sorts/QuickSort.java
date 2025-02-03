@@ -1,4 +1,4 @@
 package Sorts;
 
-public class QuickSort {
+public class QuickSort{
 }
